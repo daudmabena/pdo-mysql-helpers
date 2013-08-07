@@ -79,7 +79,7 @@
       $firstField = true;
       foreach($fieldsArr as $i => $field) {
         if($firstField) {
-          $firstField = null;
+          $firstField = false;
         } else {
           $sql .= ", ";
         }
